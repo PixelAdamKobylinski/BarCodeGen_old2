@@ -74,7 +74,7 @@
             this.gcBarCodes.Location = new System.Drawing.Point(12, 62);
             this.gcBarCodes.MainView = this.gvBarCodes;
             this.gcBarCodes.Name = "gcBarCodes";
-            this.gcBarCodes.Size = new System.Drawing.Size(245, 667);
+            this.gcBarCodes.Size = new System.Drawing.Size(245, 659);
             this.gcBarCodes.TabIndex = 0;
             this.gcBarCodes.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvBarCodes});
@@ -112,13 +112,13 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1819, 392, 1003, 562);
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1137, 764);
+            this.layoutControl1.Size = new System.Drawing.Size(1137, 756);
             this.layoutControl1.TabIndex = 1;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // controlNavigator1
             // 
-            this.controlNavigator1.Location = new System.Drawing.Point(12, 733);
+            this.controlNavigator1.Location = new System.Drawing.Point(12, 725);
             this.controlNavigator1.Name = "controlNavigator1";
             this.controlNavigator1.NavigatableControl = this.gcBarCodes;
             this.controlNavigator1.Size = new System.Drawing.Size(250, 19);
@@ -151,11 +151,12 @@
             // 
             // documentViewer
             // 
+            this.documentViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.documentViewer.DocumentSource = typeof(BarCodeGen.FrontEnd.XrepBarCodes);
             this.documentViewer.IsMetric = true;
             this.documentViewer.Location = new System.Drawing.Point(266, 52);
             this.documentViewer.Name = "documentViewer";
-            this.documentViewer.Size = new System.Drawing.Size(859, 700);
+            this.documentViewer.Size = new System.Drawing.Size(859, 692);
             this.documentViewer.TabIndex = 5;
             // 
             // btnLoadData
@@ -195,7 +196,7 @@
             this.layoutControlItem6,
             this.layoutControlItem7});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(1137, 764);
+            this.Root.Size = new System.Drawing.Size(1137, 756);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -203,7 +204,7 @@
             this.layoutControlItem1.Control = this.gcBarCodes;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 50);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(249, 671);
+            this.layoutControlItem1.Size = new System.Drawing.Size(249, 663);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -244,7 +245,7 @@
             this.layoutControlItem4.Control = this.documentViewer;
             this.layoutControlItem4.Location = new System.Drawing.Point(254, 24);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(863, 720);
+            this.layoutControlItem4.Size = new System.Drawing.Size(863, 712);
             this.layoutControlItem4.Text = "Podgląd raportu";
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(91, 13);
@@ -254,7 +255,7 @@
             this.splitterItem1.AllowHotTrack = true;
             this.splitterItem1.Location = new System.Drawing.Point(249, 24);
             this.splitterItem1.Name = "splitterItem1";
-            this.splitterItem1.Size = new System.Drawing.Size(5, 697);
+            this.splitterItem1.Size = new System.Drawing.Size(5, 689);
             // 
             // layoutControlItem5
             // 
@@ -280,7 +281,7 @@
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.controlNavigator1;
-            this.layoutControlItem7.Location = new System.Drawing.Point(0, 721);
+            this.layoutControlItem7.Location = new System.Drawing.Point(0, 713);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(254, 23);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
@@ -301,7 +302,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1137, 764);
+            this.ClientSize = new System.Drawing.Size(1137, 756);
             this.Controls.Add(this.layoutControl1);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
